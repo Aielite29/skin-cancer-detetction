@@ -2,17 +2,7 @@
 
 ## Overview
 This project focuses on developing AI algorithms to identify histologically confirmed skin cancer cases using single-lesion crops from 3D total body photos (TBP). The dataset consists of images resembling close-up smartphone photos, making it suitable for telehealth and primary care settings. The goal is to improve triage and early detection of skin cancer in underserved populations, where access to specialized care is limited.
-This project achieved final scores of 0.16930 (private) and 0.18519 (public) on the competition leaderboard, securing a rank of 190 out of 2739 teams in the ISIC 2024 Skin Cancer Detection Challenge hosted on Kaggle.
-
-## Table of Contents
-  Background
-  Models
-  Data
-  Training
-  Inference
-  Configuration
-  Composite Loss
-  Evaluation Metric
+This project achieved final scores of 0.16930 (private) and 0.18519 (public) on the competition leaderboard, in the ISIC 2024 Skin Cancer Detection Challenge hosted on Kaggle.
 
 # Background
 Skin cancer is one of the most common forms of cancer, and early detection is critical for improving patient outcomes. However, many populations lack access to specialized dermatologic care. This project leverages AI to address this gap by developing algorithms capable of identifying malignant skin lesions from benign ones using images that resemble smartphone photos. These algorithms aim to assist in triaging patients for clinical evaluation.

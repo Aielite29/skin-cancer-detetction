@@ -10,7 +10,6 @@ Skin cancer is one of the most common forms of cancer, and early detection is cr
 # Models
 This project employs a multi-stage ensemble approach combining various models for robust predictions:
 Convolutional Neural Networks (CNNs)
-Vision Transformers (ViT)
 Gradient Boosting Models
 The ensemble model integrates image-based predictions with metadata features to enhance classification accuracy.
 
@@ -31,14 +30,10 @@ Run trained CNNs and Vision Transformers on test images to extract predictions.
 Use these predictions as additional features for gradient boosting models.
 Apply the ensemble strategy to generate final probabilities for each lesion.
 
-# Configuration
-You can modify parameters such as model architecture, learning rate, and sampling techniques in the configuration files (train_config.py and test_config.py) to customize the training and inference pipelines.
-
 # Composite Loss
 To optimize model performance, a composite loss function was used:
 Binary Cross-Entropy Loss: For classification accuracy.
 Focal Loss: To handle class imbalance.
-Dice Loss: To improve segmentation quality.
 
 # Evaluation Metric
 The competition uses partial Area Under the ROC Curve (pAUC) above an 80% true positive rate (TPR) as the primary metric. This ensures that models are highly sensitive in clinical practice settings where false negatives are unacceptable.
